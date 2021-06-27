@@ -1,0 +1,47 @@
+label {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.calc {
+  justify-content: center;
+}
+
+li {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.grades p {
+  color: white;
+}
+
+.grades {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0;
+}
+
+img {
+  align-self: center;
+}
+
+.grades li {
+  background-color: black;
+}
+
+#cancelImg {
+  cursor: pointer;
+}
+
+button {
+  margin-right: 10px;
+}
